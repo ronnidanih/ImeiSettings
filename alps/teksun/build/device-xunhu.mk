@@ -110,3 +110,10 @@ endif
 #Xunhu: 未写IMEI或MEID需有未写IMEI号的水印，防止客户未写IMEI出货 at 2017-02-15 by TRF251{{&&
 	PRODUCT_PACKAGES += WriteImei
 #&&}}
+
+# Xunhu: ImeiSettings at 2017-02-16 10:50:02 by QinTuanye{{&&
+# Description: IMEI写号工具
+ifeq ($(strip $(XUNHU_QTY_IMEI_SETTINGS)), yes) 
+	PRODUCT_PACKAGES += ImeiSettings
+endif
+# &&}}

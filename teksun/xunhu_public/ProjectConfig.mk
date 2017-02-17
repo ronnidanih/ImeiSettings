@@ -43,6 +43,7 @@ XUNHU_SBYH_SALESTRACKER=no
 #########################Add by QinTuanye########################
 XUNHU_QTY_SMART_WAKE_UP=no
 XUNHU_QTY_CPU_USAGE_CURVE=no
+XUNHU_QTY_IMEI_SETTINGS=yes
 #######################End add by QinTuanye#######################
 
 #add by luoliqiang  for project name can not exceed 91 bytes build error

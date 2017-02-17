@@ -171,3 +171,8 @@ allow radio usp_prop:property_service set;
 # Operation : IT
 # Purpose: EM should set 3g vt property
 allow radio mtk_em_3gvt_prop:property_service set;
+
+# Xunhu: Allow find NvRAM Service at 2017-02-16 15:50:24 by QinTuanye{{&&
+# Description: 允许获取NvRAM Service服务
+allow radio nvram_agent_service:service_manager find;
+# &&}}

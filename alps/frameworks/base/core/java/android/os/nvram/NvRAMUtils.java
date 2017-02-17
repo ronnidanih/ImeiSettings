@@ -18,9 +18,21 @@ public class NvRAMUtils {
     // NV offset - Please Try to use the index between 1024 - 2047
     public static final int NV_OFFSET = 1024;
     
+    /// Xunhu: ImeiSettings at 2017-02-16 10:50:02 by QinTuanye{{&&	
+    /// Description: 添加IMEI1和IMEI2 NV下标
+    public static final int INDEX_SIM1_IMEI = 64;
+    public static final int INDEX_SIM2_IMEI = 74;
+    public static final int SIM1_IMEI_LENGTH = 10;
+    public static final int SIM2_IMEI_LENGTH = 10;
+    ///&&}}
+    
     // Declared offsets above should be included in this integer array, otherwise verification and I/O afterwards will fail
     private static final int[] INDEX_LIST = {
-    
+			/// Xunhu: ImeiSettings at 2017-02-16 10:50:02 by QinTuanye{{&&	
+			/// Description: 添加IMEI1和IMEI2 NV下标
+			INDEX_SIM1_IMEI,
+            INDEX_SIM2_IMEI,
+            ///&&}}
     };
 
     /***** NvRAMUtils - Place your offset above *****/
