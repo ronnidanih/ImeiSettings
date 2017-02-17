@@ -1,0 +1,23 @@
+[XUNHU_ZDP_LAUNCHER_APP_TITLE_DISPLAY_IN_TWO_LINES][launcher菜单名称支持两行显示][yes开启功能,no为关闭功能,默认开启]
+[XUNHU_LH_OPEN_TEST_VERSION][user版本用开关可以加入测试版本水印][yes开启功能,no为关闭功能,默认关闭]
+[XUNHU_INTEX_S5023_INDIA
+XUNHU_INTEX_S5023_SRILANKA
+XUNHU_INTEX_S5023_NEPAL
+XUNHU_INTEX_S5023_BANGLADESH
+XUNHU_YS_YFND_STYLUS_SALETRACKER
+XUNHU_YS_H910_ALF_SALETRACKER
+XUNHU_ZJD_H921W_YDW_X5AW_SALETRACKER
+XUNHU_HFJ_WLSD_STAR_SALETRACKER
+XUNHU_SBYH_SALESTRACKER][这些为*#5374# 外单平台验证销量统计指令的相关宏][基础版本全部默认关闭]
+[XUNHU_LIUT_SALE_TRACKER][*#5374#外单平台销量统计][yes开启功能,no为关闭功能,默认关闭]
+
+####################################Add by QinTuanye###############################################
+[XUNHU_QTY_SMART_WAKE_UP]============>[智能唤醒]========================================================>[默认关闭]
+[XUNHU_QTY_CPU_USAGE_CURVE]==========>[在设置关于手机中显示CPU使用率曲线图]==============================>[默认关闭]
+###################################End add by QinTuanye#############################################
+
+[XUNHU_BUILD_FINGERPRINT_SHORT][工程名太长超过91个字节导致编译报错][yes开启功能,no为关闭功能,默认开启]
+[XUNHU_LLQ_POWER_OFF_CHARGING_SHOW_LOGO][关机充电第一张图片显示开机logo][yes开启功能,no为关闭功能,默认开启]
+[XUNHU_HARDWARE_WITH_TEMP_CHECK][电池温度检测][yes开启功能,no为关闭功能,默认开启]
+[XUNHU_LLQ_SHOW_CHARGING_CURRENT][显示充电电流][yes开启功能,no为关闭功能,默认开启]
+[TEKSUN_DRIVE_COMMON_BOARD_DWS_NAME][支持板级dws配置][在mach/board_dws配置板级dws,如果不配置走工程默认dws,直接在具体项目中配置，公共ProjectConfig.mk不配置]
